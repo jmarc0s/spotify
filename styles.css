@@ -5,5 +5,42 @@ body{
 
 header{
     background-color: black;
-    height: 54px;
 }
+
+.container{
+    display: flex;
+    /*width: 100%;*/
+    align-items: center;
+    max-width: 1170px;
+    justify-content: space-between;
+    margin: auto;
+    height: 80px;
+}
+
+.spotify_logo{
+    height: 40px;
+    width: 132px;
+}
+
+.header__nav{
+    width: 500px;
+}
+
+.nav__opcoes{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+
+}
+
+.opcoes__item{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.opcoes__item:hover{
+    color: #1ed760;
+}
+
