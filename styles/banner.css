@@ -64,3 +64,15 @@
 .banner-paragrafo a{
     color: white;
 }
+
+.section-premium-titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 4em ;
+}
+.section-premium-lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
