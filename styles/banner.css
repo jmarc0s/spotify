@@ -7,10 +7,11 @@
 .banner-container{
     max-width: 1170px;
     margin: auto;
-    padding: 5em 0;
+    padding: 72px 0 40px 0;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 35px;
+    height: 253px;
 }
 
 
@@ -52,4 +53,14 @@
     border-radius: 30px;
     border: 2px solid white;
     align-items: center;
+}
+
+.banner-paragrafo{
+    font-size: 11px;
+    color: white;    
+    margin-top: 5px;
+}
+
+.banner-paragrafo a{
+    color: white;
 }
