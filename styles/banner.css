@@ -15,24 +15,24 @@
 }
 
 
-.banner__texto h1{
+.banner-texto h1{
     color: white;
     font-size: 40px;
     margin-bottom: 30px;
     
 }
 
-.banner__texto p{
+.banner-texto p{
     color: white;
     font-size: 24px;
 }
 
-.banner__links{
+.banner-links{
     display: flex;
     gap: 10px;
 }
 
-.link__inicio{
+.link-inicio{
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -43,7 +43,7 @@
     text-align: center;
 }
 
-.link__planos{
+.link-planos{
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -63,16 +63,4 @@
 
 .banner-paragrafo a{
     color: white;
-}
-
-.section-premium-titulo{
-    display: flex;
-    justify-content: center;
-    padding-top: 4em ;
-}
-.section-premium-lista{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }

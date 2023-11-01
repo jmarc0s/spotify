@@ -1,0 +1,37 @@
+.container-premium{
+    max-width: 1170px;
+    margin: auto;
+    height: 571px;
+    padding: 75px 15px;
+}
+
+.container-premium-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 72px;
+}
+.container-premium-lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+.lista-item{
+    text-align: center;
+    width: 270px;
+}
+
+.lista-item img{
+    width: 142px;
+    height: 142px;
+    margin: 0 auto 40px auto;
+}
+
+.lista-item h3{
+    margin: 10px 0;
+    font-size: 21px;
+    font-weight: bold;
+}
