@@ -1,0 +1,55 @@
+.banner-section{
+    background-color: #0d72ea;;
+    height: 365px;
+    justify-content: center;
+}
+
+.banner-container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.banner__texto h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.banner__texto p{
+    color: white;
+    font-size: 24px;
+}
+
+.banner__links{
+    display: flex;
+    gap: 10px;
+}
+
+.link__inicio{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.8em 1.8em;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.link__planos{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.8em 1.8em;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    align-items: center;
+}
