@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    height: 557px;
+    padding: 80px 0px 50px 0px;
+}
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+.container-listas{
+    display: flex;
+}
