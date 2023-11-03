@@ -1,0 +1,133 @@
+.footer{
+    background-color: var(--cor-preta);
+    height: 428px;
+    padding: 80px 0px 50px 0px;
+}
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container-img{
+    width: 165px;
+    padding: 0 15px;
+    height: 346px;
+}
+
+.container-listas{
+    display: flex;
+}
+
+.footer-lista{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.lista-titulo{
+    margin: 20px 0;
+    color: var(--cor-link-brasil);
+    font-size: 12px;
+}
+
+.footer-lista-item{
+    padding: 3px 0 15px 0;   
+    width: 173px;
+    font-size: 16px;
+}
+
+.midias-sociais{
+    margin: 0 15px 0 150px;
+}
+
+.midias-sociais-lista{
+    margin-top: 20px;
+    display: flex;
+    width: 200px;
+}
+
+.ms-lista-item{
+    height: 54px;
+    width: 54px;
+    margin-right: 15px;
+    background-color: var(--cor-background-ms);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.ms-lista-item-link{
+    display: flex;
+    height: 24px;
+    width: 24px;
+    background-color: var(--cor-branca);
+}
+
+.ms-lista-item-link:hover{
+    background-color: var(--cor-hover-verde);
+}
+
+.ms-lista-item-link img{
+    height: 24px;
+    width: 24px;
+}
+
+.spotify-brasil{
+    margin: 0 15px;
+    width: 100%;
+    text-align: right;
+}
+
+.spotify-brasil a{
+    font-size: 12px;
+    padding: 12px 0;
+    text-decoration: none;
+    color: var(--cor-link-brasil);
+    display: flex;
+    justify-content: right;
+    gap: 8px;
+}
+
+.spotify-brasil a:hover{
+    color: var(--cor-hover-verde);
+}
+
+.gerais{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.gerais-lista{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 12px 0 12px 15px;
+    padding-left: 15px;
+}
+
+.gl-item{
+    margin-right: 24px;
+}
+
+.gl-item-link{
+    text-decoration: none;
+    color: var(--cor-link-brasil);
+    font-size: 12px;
+    padding: 12px 0;
+}
+
+.gl-item-link:hover{
+    color: var(--cor-hover-verde);
+}
+
+.label-para-gerais{
+    color: var(--cor-link-brasil);
+    font-size: 12px;
+    margin-right: 15px;
+    padding: 12px 0;
+}
