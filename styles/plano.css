@@ -63,7 +63,6 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    
     margin-bottom: 5em;
 }
 
@@ -75,6 +74,7 @@
     margin-bottom: 10px;
     padding: 4px 8px;
     font-weight: 900;
+    width: fit-content;
    
 }
 
@@ -85,6 +85,7 @@
     color: var(--cor-azul);
     padding: 4px;
     font-weight: 600;
+    width: fit-content;
 }
 .planos-paragrafoo{
     font-size: 14px;
@@ -135,13 +136,17 @@
     text-decoration: none;
     color: var(--cor-branca);
     font-size: 16px;
-    padding: 15px 55px;
+    padding: 15px 60px;
     border-radius: 500px;
     margin-bottom: 8px;
+    font-weight: bold;
+    text-align: start;
+    align-items: start;
 }
 
 .paragrafo-aviso {
     font-size: 12px;
+    text-align: left;
     
 }
 
