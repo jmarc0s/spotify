@@ -16,14 +16,14 @@
 
 
 .banner-texto h1{
-    color: white;
+    color: var(--cor-branca);
     font-size: 40px;
     margin-bottom: 30px;
     
 }
 
 .banner-texto p{
-    color: white;
+    color: var(--cor-branca);
     font-size: 24px;
 }
 
@@ -34,33 +34,44 @@
 
 .link-inicio{
     text-decoration: none;
-    color: white;
+    color: var(--cor-branca);
     font-size: 16px;
     font-weight: 700;
     padding: 0.8em 1.8em;
-    background-color: black;
+    background-color: #191414;
     border-radius: 30px;
     text-align: center;
 }
 
+.link-inicio:hover{
+    background-color: var(--cor-preta);
+    transform: scale(1.04);
+}
+
 .link-planos{
     text-decoration: none;
-    color: white;
+    color: var(--cor-branca);
     font-size: 16px;
     font-weight: 700;
     padding: 0.8em 1.8em;
     background-color: transparent;
     border-radius: 30px;
-    border: 2px solid white;
+    border: 2px solid var(--cor-branca);
     align-items: center;
 }
 
+.link-planos:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.04);
+}
+
+
 .banner-paragrafo{
     font-size: 11px;
-    color: white;    
+    color: var(--cor-branca);    
     margin-top: 5px;
 }
 
 .banner-paragrafo a{
-    color: white;
+    color: var(--cor-branca);
 }
