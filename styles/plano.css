@@ -1,0 +1,167 @@
+.section-plano {
+    background-color: rgb(239, 239, 239);
+    justify-content: center;
+}
+.planos-container{
+    width: 1170px;
+}
+.container-plano {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plano-titulo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+.plano-paragrafo {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.plano-lista {
+    display: flex;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.planos-lista-item {
+    list-style: none;
+    width: 100%; /* Defina a largura para 100% */
+    box-sizing: border-box;
+    
+}
+
+.lista-imagem {
+    list-style: none;
+}
+
+.lista-imagem img {
+    width: 29px;
+    height: 29px;
+}
+
+.planos-lista {
+    display: flex;
+    gap: 0.8em;
+    
+}
+
+.container-planos {
+    background-color: var(--cor-branca);
+    height: 700px;
+    
+    background: white;
+    padding: 20px 16px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+.planos-subtitulo {
+    font-size: 14px;
+    border-radius: 4px;
+    color: var(--cor-branca);
+    background-color: var(--cor-azul);
+    margin-bottom: 10px;
+    padding: 4px 8px;
+    font-weight: 900;
+    width: fit-content;
+   
+}
+
+.planos-paragrafo {
+    font-size: 14px;
+    border: 1.5px solid var(--cor-azul);
+    background: transparent;
+    color: var(--cor-azul);
+    padding: 4px;
+    font-weight: 600;
+    width: fit-content;
+}
+.planos-paragrafoo{
+    font-size: 14px;
+
+}
+
+.planos-titulo {
+    font-size: 24px;
+    padding-top: 8px;
+}
+
+.planos-subparagrafo {
+    font-size: 16px;
+    padding: 6px;
+    margin-top: -4px;
+    max-height: 60px; 
+    line-height: 16px;
+}
+
+.planos-vantagens {
+    display: flex;
+    align-items: start;
+    padding-bottom: 5px;
+   
+    
+}
+
+
+.planos-assinar {
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Ajuste o espaçamento interno conforme necessário */
+    height: 120px; /* Ajuste a altura conforme necessário */
+    color: rgb(83, 83, 83);
+    
+    margin-bottom: 3em;
+    
+}
+.link-termo{
+    color: rgb(83, 83, 83);
+}
+
+
+.botao-assinar {
+    background-color: var(--cor-preta);
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-size: 16px;
+    padding: 15px 60px;
+    border-radius: 500px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: start;
+    align-items: start;
+}
+
+.paragrafo-aviso {
+    font-size: 12px;
+    text-align: left;
+    
+}
+
+.separador {
+    width: 100%;
+    border: 1px solid var(--cor-preta); 
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.separador-universitario{
+    margin-top: 8px;
+}
+
+.botao-assinar:hover{
+    font-size: 17px;
+    
+}
