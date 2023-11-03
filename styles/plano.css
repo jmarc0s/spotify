@@ -25,6 +25,16 @@
     margin-bottom: 15px;
 }
 
+.plano-cartões{
+    display: flex;
+    gap: 4px;
+}
+
+.plano-cartões span{
+    margin-top:7px;
+    text-decoration: underline;
+}
+
 .plano-lista {
     display: flex;
     margin-bottom: 20px;
