@@ -1,47 +1,68 @@
-.section-plano{
+.section-plano {
     background-color: rgb(239, 239, 239);
     justify-content: center;
 }
-.container-plano{
+.planos-container{
+    width: 1170px;
+}
+.container-plano {
     display: flex;
     max-width: 1170px;
     margin: auto;
     flex-direction: column;
     align-items: center;
 }
-.plano-titulo{
+
+.plano-titulo {
     font-size: 40px;
     font-weight: bold;
     padding-top: 40px;
     margin-bottom: 15px;
-
-    
 }
-.plano-paragrafo{
+
+.plano-paragrafo {
     font-size: 16px;
     margin-bottom: 15px;
 }
-.plano-lista{
+
+.plano-lista {
     display: flex;
-    gap: 8px;
     margin-bottom: 20px;
-}
-.lista-imagem{
     list-style: none;
 }
-.lista-imagem img{
-    width: 29px ;
+
+.planos-lista-item {
+    list-style: none;
+    
+}
+
+.lista-imagem {
+    list-style: none;
+}
+
+.lista-imagem img {
+    width: 29px;
     height: 29px;
 }
 
+.planos-lista {
+    display: flex;
+    gap: 0.8em;
+}
 
-.container-planos{
+.container-planos {
     background-color: var(--cor-branca);
-    width: 80%;
+    height: 700px;
     background: white;
     padding: 20px 16px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     
+    margin-bottom: 5em;
 }
+
 .planos-subtitulo {
     font-size: 14px;
     color: var(--cor-branca);
@@ -49,7 +70,8 @@
     margin-bottom: 10px;
     padding: 10px;
 }
-.planos-paragrafo{
+
+.planos-paragrafo {
     font-size: 14px;
     border: 1.5px solid var(--cor-azul);
     background: transparent;
@@ -57,12 +79,50 @@
     padding: 4px;
     font-weight: 600;
 }
-.planos-titulo{
+
+.planos-titulo {
     font-size: 24px;
     padding-top: 8px;
 }
-.planos-subparagrafo{
-    font-size: 16px;
-    padding: 8px;
 
+.planos-subparagrafo {
+    font-size: 16px;
+    padding: 6px ;
+   
+    
+}
+
+.planos-vantagens {
+    display: flex;
+    align-items: center;
+}
+
+.planos-assinar {
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-assinar {
+    background-color: var(--cor-preta);
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-size: 16px;
+    padding: 15px 55px;
+    border-radius: 500px;
+    margin-bottom: 8px;
+}
+
+.paragrafo-aviso {
+    font-size: 12px;
+    
+}
+
+.separador {
+    width: 100%;
+    border: 1px solid var(--cor-preta); 
+    margin-top: 70px;
+    margin-bottom: 15px;
 }
