@@ -1,5 +1,5 @@
 .banner-section{
-    background-color: #0d72ea;;
+    background-color: var( --cor-fundo-azul);
     height: 365px;
     justify-content: center;
 }
@@ -38,7 +38,7 @@
     font-size: 16px;
     font-weight: 700;
     padding: 0.8em 1.8em;
-    background-color: #191414;
+    background-color: var(--cor-fundo-banner);
     border-radius: 30px;
     text-align: center;
 }
@@ -75,3 +75,4 @@
 .banner-paragrafo a{
     color: var(--cor-branca);
 }
+
